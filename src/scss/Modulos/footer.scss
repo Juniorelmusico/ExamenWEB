@@ -1,0 +1,20 @@
+.footer {
+    background-color: $primary-bg;
+    color: $light;
+    padding: 40px 20px;
+  
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+  
+      .footer-nav {
+        display: flex;
+        gap: 40px;
+      }
+  
+      .footer-newsletter input {
+        border: none;
+        padding: 8px 12px;
+      }
+    }
+  }

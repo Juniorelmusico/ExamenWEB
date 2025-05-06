@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnito</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Furnitures</li>
+            <li>Sale</li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+        <h1>Furnito</h1>
+        <div class="search-bar">
+          <div class="input-container">
+            <span class="search-icon"><i class="fas fa-search"></i></span>
+            <input type="text" placeholder="Search for furnitures">
+          </div>
+          <span><i class="fas fa-heart"></i> <i class="fas fa-shopping-cart"></i> <i class="fas fa-bell"></i></span>
+        </div>
+      </header>
+    
+      <!-- Información adicional como envío -->
+      <div class="header-info">
+        <span><i class="fas fa-truck"></i> Next Day Delivery</span> &nbsp;&nbsp;
+        <strong>Free Shipping</strong> for orders above $300
+      </div>
+    
+      <!-- Main con contenido principal -->
+      <main>
+        <div class="hero-text">
+          <h2>Your Place Will Never Be The Same Again With Our<br>
+            <span class="highlight">Fantastic Furniture.</span>
+          </h2>
+        </div>
+        <div class="hero-right">
+          <div class="promo">
+            <img src="./assets/img/maysale.svg" alt="MAY Sale" class="may-sale-img">
+          </div>
+        </div>
+        <button class="boton">Shop Now</button>
+      </main>
+      <img src="./assets/img/sofa-person.svg" alt="Person on sofa" class="sofa-img">
+
+      <section class="inspiration-section">
+        <div class="inspiration-container">
+          <div class="inspiration-text">
+            <h2>Get Inspired</h2>
+            <p>
+              Take a look at our customers' own spaces where<br>
+              you can get style tips and tricks.
+            </p>
+            <button>Learn More</button>
+          </div>
+          <div class="inspiration-image">
+            <img src="./assets/img/living-room.svg" alt="Living room inspiration">
+          </div>
+        </div>
+      </section>
+      <!-- Categorías -->
+      <section class="categories-section">
+        <h2>Furnitures</h2>      
+        <div class="categories-container">
+          
+          <div class="category-item">
+            <a href="#lightbox-living">
+              <img src="./assets/img/living-room1.svg" alt="Living Room">
+            </a>
+            <p>Living Room</p>
+          </div>
+      
+          <div class="category-item">
+            <a href="#lightbox-bedroom">
+              <img src="./assets/img/bedroom1.svg" alt="Bedroom">
+            </a>
+            <p>Bedroom</p>
+          </div>
+      
+          <div class="category-item">
+            <a href="#lightbox-dining">
+              <img src="./assets/img/living-room1.svg" alt="Dining">
+            </a>
+            <p>Dining</p>
+          </div>
+      
+          <div class="category-item">
+            <a href="#lightbox-lights">
+              <img src="./assets/img/lights1.svg" alt="Lights">
+            </a>
+            <p>Lights</p>
+          </div>
+      
+        </div>
+      </section>
+            <!-- Lightbox para las imágenes de las categorías -->
+      <!-- Lightbox Living Room -->
+      <div id="lightbox-living" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <img src="./assets/img/living-room1.svg" alt="Living Room Full" />
+      </div>
+
+      <!-- Lightbox Bedroom -->
+      <div id="lightbox-bedroom" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <img src="./assets/img/bedroom1.svg" alt="Bedroom Full" />
+      </div>
+
+      <!-- Lightbox Dining -->
+      <div id="lightbox-dining" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <img src="./assets/img/living-room1.svg" alt="Dining Full" />
+      </div>
+
+      <!-- Lightbox Lights -->
+      <div id="lightbox-lights" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <img src="./assets/img/lights1.svg" alt="Lights Full" />
+      </div>
+
+
+      <!-- Productos destacados -->
+      <section class="popular-products">
+        <div class="products-header">
+          <h2>What People Love</h2>
+          <a href="#">View More</a>
+        </div>
+        <div class="fondo-gris">
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="./assets/img/leather-sofa.svg" alt="Leather Sofa">
+              <div class="product-info">
+                <p class="product-name">3 - Seater Leather Sofa</p>
+                <p class="product-price">$1699</p>
+                <div class="product-colors">
+                  <span class="color red"></span>
+                  <span class="color blue"></span>
+                  <span class="color beige"></span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="./assets/img/seater-sofa.svg" alt="Seater Sofa">
+              <div class="product-info">
+                <p class="product-name">3 - Seater Sofa</p>
+                <p class="product-price">$79</p>
+                <span class="color beige"></span>
+              </div>
+            </div>
+            <div class="product-card">
+              <img src="./assets/img/leather-sofa.svg" alt="Pendant Lamp">
+              <div class="product-info">
+                <p class="product-name">Pendent Lamp - 2 Bulbs</p>
+                <p class="product-price">$349</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-nav">
+                <div class="footer-section">
+                    <h3>Explore</h3>
+                </div>
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                </div>
+                <div class="footer-section">
+                    <h3>Help</h3>
+                </div>
+            </div>
+            
+            <div class="footer-newsletter">
+                <p>Want To Know When The Items Go On Sale? Get Notified!</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Type In Your Email Address">
+                    <button class="send-btn">Send</button>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>Furnito@Gmail.Com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>+6567823</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div class="address">
+                            <span>Suntec City Mall Tower 3</span>
+                            <span>East Wing, #03-728/729/730</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-media">
+                    <p>Follow Us:</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon instagram">
+                            <img src="./assets/img/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-icon facebook">
+                            <img src="./assets/img/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-icon linkedin">
+                            <img src="./assets/img/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

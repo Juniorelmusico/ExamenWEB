@@ -1,0 +1,26 @@
+main {
+    background-color: $primary-bg;
+    color: $light;
+    padding: 40px 80px;
+  
+    .hero-text {
+      .highlight {
+        color: $highlight;
+        font-weight: bold;
+      }
+    }
+  
+    .categories-section {
+      background-color: $gray-bg;
+      padding: 40px 20px;
+  
+      .categories-container {
+        @include flex-center;
+        gap: 120px;
+  
+        .category-item img {
+          border-radius: 50%;
+        }
+      }
+    }
+  }

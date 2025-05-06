@@ -1,0 +1,33 @@
+header {
+    background-color: $secondary-bg;
+    @include flex-center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+  
+      li {
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 60px;
+  
+    .input-container {
+      position: relative;
+  
+      input {
+        padding: 5px 10px 5px 30px;
+        border-radius: 4px;
+        background-color: $primary-bg;
+        color: $light;
+      }
+    }
+  }
